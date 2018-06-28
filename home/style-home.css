@@ -1,0 +1,129 @@
+/***** Page Styles *****/
+html, 
+body {
+  height: 100%;
+}
+
+/***** Nav Bar Styles *****/
+.navbar {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.color-nav{
+    color: black;
+}
+
+.titulo-size{
+    font-size: 800%;
+}
+
+.subtitulo-size{
+    font-size: 250%;
+}
+
+.navbar i {
+  padding-right: 5px;
+}
+
+/***** Home Page Styles *****/
+#home {
+  height: 100%; 
+  background: url('http://washmecarwashes.co/files/2014/04/DL_large3.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: tomato;
+}
+
+#main-banner {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: GhostWhite;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px Black;
+}
+
+#main-banner h1 {
+  font-weight: bold;
+}
+
+.glyphicon-link {
+  font-size: 2em;
+  color: Silver;
+  text-shadow: 1px 1px Black;
+}
+
+/***** About Page Styles *****/
+#about {
+   height: 100%; 
+  background: url('http://paper4pc.com/images/polygons-wallpaper-4.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #7c9acc;
+}
+
+#about h1,
+#portfolio h1,
+#contact h1 {
+  color: GhostWhite;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px Black;  
+}
+
+#about p {
+  color: GhostWhite;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px Black;
+  font-size: 1.2em;
+}
+
+#about-content {
+  margin-top: 50px;
+}
+
+/***** Portfolio Page Styles *****/
+#portfolio {
+  height: 100%; 
+  background: url('http://www.macba.cat/uploads/20150302/4.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: tomato;
+}
+
+#portfolio-content {
+  margin-top: 50px;
+  font-size: .8em;
+}
+
+#portfolio p {
+  color: GhostWhite;
+  font-family: 'Roboto', sans-serif;
+}
+
+/***** Contact Page Styles *****/
+#contact {
+  height: 100%; 
+  background: url('https://upload.wikimedia.org/wikipedia/commons/9/9f/Par_avion_air_mail.JPG') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: tomato;
+}
+
+#contact-social-buttons i {
+  font-size: 6em;
+  color: white;
+  text-shadow: 1px 1px Black;
+  margin-top: 100px; 
+}
+
