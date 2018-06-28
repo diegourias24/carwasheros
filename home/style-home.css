@@ -21,6 +21,7 @@ body {
 
 .subtitulo-size{
     font-size: 250%;
+    letter-spacing: 10px;
 }
 
 .navbar i {
@@ -44,12 +45,13 @@ body {
   left:50%;
   transform: translate(-50%,-50%);
   color: GhostWhite;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Viga', sans-serif;
   text-shadow: 1px 1px Black;
+  letter-spacing: 15px;
 }
 
 #main-banner h1 {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .glyphicon-link {
@@ -59,7 +61,7 @@ body {
 }
 
 /***** About Page Styles *****/
-#about {
+#servicios {
    height: 100%; 
   background: url('http://paper4pc.com/images/polygons-wallpaper-4.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -69,15 +71,15 @@ body {
   background-color: #7c9acc;
 }
 
-#about h1,
-#portfolio h1,
+#servicios h1,
+#trabajo h1,
 #contact h1 {
   color: GhostWhite;
   font-family: 'Roboto', sans-serif;
   text-shadow: 1px 1px Black;  
 }
 
-#about p {
+#servicios p {
   color: GhostWhite;
   font-family: 'Roboto', sans-serif;
   text-shadow: 1px 1px Black;
@@ -122,8 +124,21 @@ body {
 
 #contact-social-buttons i {
   font-size: 6em;
-  color: white;
+  color:white;
   text-shadow: 1px 1px Black;
   margin-top: 100px; 
 }
 
+
+.boton-size{
+  height: 50px;
+  width: 250px;
+  font-size: 25px;
+  margin-top: 100px;
+  background-color: #d9d9d9;
+  color: black;
+  letter-spacing: 1px;
+  border: none;
+  box-shadow: 0px 0px 50px black;
+  font-family: "Roboto", sans-serif;
+}
