@@ -62,7 +62,7 @@ body {
 
 /***** About Page Styles *****/
 #trabajo {
-   height: 100%; 
+   height: 120%; 
   background: url('') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -77,6 +77,7 @@ body {
   color: GhostWhite;
   font-family: 'Roboto', sans-serif;
   text-shadow: 1px 1px Black;  
+  margin-top: 40px;
 }
 
 #trabajo p {
@@ -115,7 +116,10 @@ img {
 
 #servicios-content {
   margin-top: 50px;
-  font-size: .8em;
+  justify-content: space-around;
+  
+
+
 }
 
 #servicios p {
@@ -154,3 +158,44 @@ img {
   box-shadow: 0px 0px 50px black;
   font-family: "Roboto", sans-serif;
 }
+
+.input-carros{
+  height: 180px;
+  width: 220px;
+  
+  
+} 
+
+
+ /* .input-carros:focus{
+   filter: invert(100%)
+ } */
+
+ .transbox{
+  margin: 30px;
+  background-color: #a8d5e2;
+  border: 1px solid black;
+  opacity: .8;
+  filter: alpha(opacity=60);
+  height: 80%;
+ }
+ 
+ 
+ .caja-serv{
+  color: rgb(26, 26, 26);
+ 
+ }
+
+ label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #f00;
+}
+
+ 
