@@ -36,7 +36,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: tomato;
+  
 }
 
 #main-banner {
@@ -61,9 +61,9 @@ body {
 }
 
 /***** About Page Styles *****/
-#servicios {
+#trabajo {
    height: 100%; 
-  background: url('http://paper4pc.com/images/polygons-wallpaper-4.jpg') no-repeat center center fixed;
+  background: url('') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -79,47 +79,59 @@ body {
   text-shadow: 1px 1px Black;  
 }
 
-#servicios p {
+#trabajo p {
   color: GhostWhite;
   font-family: 'Roboto', sans-serif;
   text-shadow: 1px 1px Black;
   font-size: 1.2em;
 }
 
-#about-content {
+#trabajo-content {
   margin-top: 50px;
 }
 
+#about-content2{
+  margin-top: 100px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.row2{
+  margin-top: 150px;
+}
+
 /***** Portfolio Page Styles *****/
-#portfolio {
+#servicios {
   height: 100%; 
-  background: url('http://www.macba.cat/uploads/20150302/4.jpg') no-repeat center center fixed;
+  background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BY8x1xp/luxury-car-wash-service-person-cleaning-auto-with-soap-sponge-transport_s3ercvvif__F0000.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: tomato;
 }
 
-#portfolio-content {
+#servicios-content {
   margin-top: 50px;
   font-size: .8em;
 }
 
-#portfolio p {
+#servicios p {
   color: GhostWhite;
   font-family: 'Roboto', sans-serif;
 }
 
 /***** Contact Page Styles *****/
 #contact {
-  height: 100%; 
-  background: url('https://upload.wikimedia.org/wikipedia/commons/9/9f/Par_avion_air_mail.JPG') no-repeat center center fixed;
+  height: 40%; 
+  background: url('') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: tomato;
+  background-color: rgb(147, 183, 196);
 }
 
 #contact-social-buttons i {
